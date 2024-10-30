@@ -1,0 +1,1 @@
+valgrind --tool=memcheck --leak-check=full --show-leak-kinds=all -s ./dict1 1 tests/dataset_20.csv output.out < tests/test20.in > output.stdout.out
